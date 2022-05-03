@@ -1,0 +1,368 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="QactorCompiler.QactorParser" Collapsed="true">
+    <Position X="4" Y="2" Width="1.5" />
+    <NestedTypes>
+      <Class Name="QactorCompiler.QactorParser.ReplyReqContext" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>QactorParser.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="QactorCompiler.QactorParser.EventContext" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>QactorParser.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="QactorCompiler.QactorParser.PAtomNumContext" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>QactorParser.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="QactorCompiler.QactorParser.DiscardMsgContext" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>QactorParser.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="QactorCompiler.QactorParser.DemandContext" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>QactorParser.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="QactorCompiler.QactorParser.RequestTransSwitchContext" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>QactorParser.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="QactorCompiler.QactorParser.TokenContext" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>QactorParser.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="QactorCompiler.QactorParser.DelayContext" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>QactorParser.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="QactorCompiler.QactorParser.TimeoutIntContext" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>QactorParser.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="QactorCompiler.QactorParser.NonEmptyTransitionContext" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>QactorParser.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="QactorCompiler.QactorParser.GuardedStateActionContext" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>QactorParser.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="QactorCompiler.QactorParser.PStructRefContext" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>QactorParser.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="QactorCompiler.QactorParser.PrintContext" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>QactorParser.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="QactorCompiler.QactorParser.PStructContext" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>QactorParser.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="QactorCompiler.QactorParser.TimeoutContext" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>QactorParser.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="QactorCompiler.QactorParser.SignalContext" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>QactorParser.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="QactorCompiler.QactorParser.ReplyContext" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>QactorParser.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="QactorCompiler.QactorParser.AnyActionContext" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>QactorParser.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="QactorCompiler.QactorParser.TransitionXContext" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>QactorParser.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="QactorCompiler.QactorParser.CodeRunActorContext" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>QactorParser.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="QactorCompiler.QactorParser.PHeadContext" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>QactorParser.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="QactorCompiler.QactorParser.MessageXContext" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>QactorParser.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="QactorCompiler.QactorParser.ReplyTransSwitchContext" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>QactorParser.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="QactorCompiler.QactorParser.NoMsgCondContext" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>QactorParser.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="QactorCompiler.QactorParser.DurationXContext" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>QactorParser.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="QactorCompiler.QactorParser.QActorContext" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>QactorParser.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="QactorCompiler.QactorParser.PAtomicContext" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>QactorParser.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="QactorCompiler.QactorParser.VariableXContext" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>QactorParser.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="QactorCompiler.QactorParser.TimeoutSolContext" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>QactorParser.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="QactorCompiler.QactorParser.TimeoutVarContext" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>QactorParser.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="QactorCompiler.QactorParser.AnswerContext" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>QactorParser.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="QactorCompiler.QactorParser.InvitationContext" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>QactorParser.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="QactorCompiler.QactorParser.QactorSystemSpecContext" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>QactorParser.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="QactorCompiler.QactorParser.UpdateResourceContext" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>QactorParser.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="QactorCompiler.QactorParser.OutInMessageContext" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>QactorParser.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="QactorCompiler.QactorParser.EndActorContext" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>QactorParser.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="QactorCompiler.QactorParser.EmptyTransitionContext" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>QactorParser.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="QactorCompiler.QactorParser.EmitContext" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>QactorParser.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="QactorCompiler.QactorParser.ComponentIPContext" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>QactorParser.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="QactorCompiler.QactorParser.StateActionContext" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>QactorParser.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="QactorCompiler.QactorParser.DelaySolContext" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>QactorParser.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="QactorCompiler.QactorParser.EventTransSwitchContext" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>QactorParser.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="QactorCompiler.QactorParser.IfSolvedActionContext" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>QactorParser.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="QactorCompiler.QactorParser.PrintCurMsgContext" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>QactorParser.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="QactorCompiler.QactorParser.PAtomStringContext" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>QactorParser.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="QactorCompiler.QactorParser.ContextPContext" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>QactorParser.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="QactorCompiler.QactorParser.OutOnlyMessageContext" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>QactorParser.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="QactorCompiler.QactorParser.MsgTransSwitchContext" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>QactorParser.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="QactorCompiler.QactorParser.VarRefContext" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>QactorParser.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="QactorCompiler.QactorParser.DispatchContext" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>QactorParser.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="QactorCompiler.QactorParser.MsgCondContext" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>QactorParser.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="QactorCompiler.QactorParser.ForwardContext" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>QactorParser.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="QactorCompiler.QactorParser.DelayIntContext" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>QactorParser.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="QactorCompiler.QactorParser.CodeRunSimpleContext" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>QactorParser.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="QactorCompiler.QactorParser.BrokerSpecContext" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>QactorParser.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="QactorCompiler.QactorParser.QActorDeclarationContext" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>QactorParser.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="QactorCompiler.QactorParser.PAtomContext" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>QactorParser.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="QactorCompiler.QactorParser.SolveGoalContext" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>QactorParser.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="QactorCompiler.QactorParser.StateContext" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>QactorParser.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="QactorCompiler.QactorParser.VarSolRefContext" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>QactorParser.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="QactorCompiler.QactorParser.DelayVarContext" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>QactorParser.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="QactorCompiler.QactorParser.ExecContext" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>QactorParser.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="QactorCompiler.QactorParser.MemoTimeContext" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>QactorParser.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="QactorCompiler.QactorParser.VarRefInStrContext" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>QactorParser.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="QactorCompiler.QactorParser.QActorExternalContext" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>QactorParser.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="QactorCompiler.QactorParser.RequestContext" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>QactorParser.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="QactorCompiler.QactorParser.QActorCodedContext" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>QactorParser.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="QactorCompiler.QactorParser.TimeoutVarRefContext" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>QactorParser.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="QactorCompiler.QactorParser.DelayVrefContext" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>QactorParser.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="QactorCompiler.QactorParser.InputTransitionContext" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>QactorParser.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="QactorCompiler.QactorParser.CodeRunContext" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>QactorParser.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>e6fXn/61G4dIjsClFVKU/6v+tTfv9RVnWNVSj/y8STc=</HashCode>
+      <FileName>D:\Sviluppo\Lab2\getting-started-with-antlr-in-csharp-master\CreateParserFiles\obj\Debug\net6.0\QactorParser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

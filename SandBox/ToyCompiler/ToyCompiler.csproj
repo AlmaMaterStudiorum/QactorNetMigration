@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	<LangVersion>preview</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\ToyAntLr4\obj\Debug\net6.0\ToyLexer.cs" Link="ToyLexer.cs" />
+    <Compile Include="..\ToyAntLr4\obj\Debug\net6.0\ToyParser.cs" Link="ToyParser.cs" />
+    <Compile Include="..\ToyAntLr4\obj\Debug\net6.0\ToyParserBaseListener.cs" Link="ToyParserBaseListener.cs" />
+    <Compile Include="..\ToyAntLr4\obj\Debug\net6.0\ToyParserBaseVisitor.cs" Link="ToyParserBaseVisitor.cs" />
+    <Compile Include="..\ToyAntLr4\obj\Debug\net6.0\ToyParserListener.cs" Link="ToyParserListener.cs" />
+    <Compile Include="..\ToyAntLr4\obj\Debug\net6.0\ToyParserVisitor.cs" Link="ToyParserVisitor.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Antlr4" Version="4.6.6">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Antlr4.Runtime" Version="4.6.6" />
+  </ItemGroup>
+
+</Project>

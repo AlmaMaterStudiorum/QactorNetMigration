@@ -1,0 +1,31 @@
+﻿/*
+qactorSystemSpec:   systemSpec
+					request
+					EOF; 
+
+
+systemSpec: SYSTEMSTRING name=ID WS;
+request   : REQUESTCAPITALSTRING  name=ID  DuePuntiSTRING  var=ID OpenRoundSTRING payload=VARID CloseRoundSTRING  WS;
+
+*/
+
+/*
+event: 		EventSTRING				name=ID  DuePuntiSTRING msg=pHead    ;
+signal: 	SignalSTRING			name=ID  DuePuntiSTRING msg=pHead    ;
+token:		TokenSTRING				name=ID  DuePuntiSTRING msg=pHead    ;
+dispatch: 	DispatchSTRING			name=ID  DuePuntiSTRING msg=pHead  ;
+request: 	REQUESTCAPITALSTRING	name=ID  DuePuntiSTRING msg=pHead  ;
+reply: 	    ReplySTRING				name=ID  DuePuntiSTRING msg=pHead  ;
+invitation:	InvitationSTRING		name=ID  DuePuntiSTRING msg=pHead    ;
+
+
+event: 		EventSTRING				payloadMessage    ;
+signal: 	SignalSTRING			payloadMessage    ;
+token:		TokenSTRING				payloadMessage    ;
+dispatch: 	DispatchSTRING			payloadMessage    ;
+request: 	RequestCapitalSTRING	payloadMessage    ;
+reply: 	    ReplySTRING				payloadMessage    ;
+invitation:	InvitationSTRING		payloadMessage    ;
+
+payloadMessage : ID (name=ID)  DuePuntiSTRING  pHead (msg=pHead);
+*/
