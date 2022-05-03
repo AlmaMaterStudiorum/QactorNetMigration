@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	<LangVersion>preview</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\CreateQactor\obj\Debug\net6.0\QactorLexer.cs" Link="QactorLexer.cs" />
+    <Compile Include="..\CreateQactor\obj\Debug\net6.0\QactorParser.cs" Link="QactorParser.cs" />
+    <Compile Include="..\CreateQactor\obj\Debug\net6.0\QactorParserBaseListener.cs" Link="QactorParserBaseListener.cs" />
+    <Compile Include="..\CreateQactor\obj\Debug\net6.0\QactorParserBaseVisitor.cs" Link="QactorParserBaseVisitor.cs" />
+    <Compile Include="..\CreateQactor\obj\Debug\net6.0\QactorParserListener.cs" Link="QactorParserListener.cs" />
+    <Compile Include="..\CreateQactor\obj\Debug\net6.0\QactorParserVisitor.cs" Link="QactorParserVisitor.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Antlr4" Version="4.6.6">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Antlr4.Runtime" Version="4.6.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CompilerRuntime\CompilerRuntime.csproj" />
+  </ItemGroup>
+
+</Project>
