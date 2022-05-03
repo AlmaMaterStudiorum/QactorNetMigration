@@ -1,7 +1,7 @@
-# Getting started with ANTLR in CSharp
+# Soluzione di test per la QactorNET
 
-ANTLR is a great tool to quickly create parsers and help you in working with a known language or create your DSL. While the tool itself is written in Java it can also be used to generate parsers in several other languages, for instance Python, C# or Javascript (with more languages supported by newer versions).
-
-If you want to use C# you can integrate ANTLR in your favorite IDE, as long as that IDE is Visual Studio Code or an older version of Visual Studio. You can make it work manually with other setups, but the easiest way is to use Visual Studio Code and the available extension to integrate the generation of the grammar into the your C# project.
-
-**You can read an article on the example on [Getting started with ANTLR in CSharp](https://tomassetti.me/getting-started-with-antlr-in-csharp/)**
+Questi progetti sono dedicati alla sperimentazione per la generazione di un compilatore per file .qak che hanno una grammatica Qactor.
+La grammatica originale è presente in https://github.com/anatali/issLab2021/blob/main/it.unibo.qakactor/userDocs/Qactork.xtext.
+E stata effettuata una traduzione nel formato di Antlr4 (.g4).
+Il modello architetturale definitivo dovrebbe essere quello di avere un progetto QactorAntlr4 per la produzione del parser , lexer e le classi/interfaccie per il visitor , e un progetto QactorCompiler per la compilazione dei file qactor.
+Nel progetto QactorCompiler il visitor sarà implementato nel file QactorVisitor.partial.cs che contiene una classe parziale contenente sono le funzionalità del visitor , le funzionalità legate per esempio al log o debugging sono nel file principale QactorVisitot.cs.  
